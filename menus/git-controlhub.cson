@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle git-controlhub'
+      'command': 'git-controlhub:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'git-controlhub'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'git-controlhub:toggle'
+        }
+      ]
+    ]
+  }
+]
