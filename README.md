@@ -1,4 +1,4 @@
-# Atom git-hubtroll
+# Atom git-controlhub
 
 ## What
 
