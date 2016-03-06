@@ -1,7 +1,7 @@
 {
   "name": "git-controlhub",
   "main": "./lib/git-controlhub",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Provides a GUI interface to manage all commonly-used git commands.",
   "keywords": [
     "git-controlhub",
