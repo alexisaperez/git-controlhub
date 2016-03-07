@@ -20,7 +20,7 @@ This is a fork of the [git-control](https://atom.io/packages/git-control) projec
 - Command available are activated based on working tree status
 - Automatically fetches remote status on activation
 
-## GitFlow
+## HubFlow
 
 For HubFlow commands to work, you need to [install HubFlow](https://datasift.github.io/gitflow/TheHubFlowTools.html)
 
