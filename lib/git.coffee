@@ -55,10 +55,11 @@ parseDiff = (data) -> q.fcall ->
         diff['---'] = line.replace(/^--- [a|b]\//, '')
       when /^\+\+\+ /.test(line)
         diff['+++'] = line.replace(/^\+\+\+ [a|b]\//, '')
-      else
+      when /^[ +-]/.test(line)
         diff['lines'].push line
         diff['added']++ if /^\+/.test(line)
         diff['removed']++ if /^-/.test(line)
+      else
 
   return diffs
 
