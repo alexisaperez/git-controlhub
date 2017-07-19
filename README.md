@@ -2,7 +2,7 @@
 
 ## What
 
-Provides a GUI interface to manage all commonly-used git commands.
+Provides a GUI interface to manage all commonly-used hubflow commands.
 
 This is a fork of the [git-control](https://atom.io/packages/git-control) project by [MarcelMue](https://github.com/MarcelMue) and [Jaco Greeff](https://github.com/jacogr). This fork swaps out git flow functionality for [HubFlow](https://datasift.github.io/gitflow/)
 
